@@ -15,7 +15,8 @@ def copy_ffhq_model(dataset_name, model_path='model/ffhq.pkl'):
 @click.command()
 @click.option(
     '--dataset_name',
-    '-d'
+    '-d',
+    required=True
 )
 @click.option(
     '--model_path',

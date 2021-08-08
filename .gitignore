@@ -2,3 +2,4 @@
 /latents/
 /results/
 /mine/
+global_directions/data/test_*/*
